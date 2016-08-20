@@ -1,0 +1,58 @@
+.top-boxes {
+	display:flex;
+	height:100px;
+
+}
+
+.small-box {
+	flex:1;
+	height:100%;
+
+}
+
+.large-box {
+	flex:2;
+	height:100%;
+}
+
+.larger-boxes {
+	display: flex;
+	height: 300px;
+	padding-bottom: 10px;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.gray {
+	background-color: gray;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 100px;
+}
+
+.smallest-box {
+	width: 80%;
+	height: 100%;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	margin:20px;
+}
+
+.small-box.blue {
+	margin: 0 20px;
+}
